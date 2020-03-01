@@ -1,4 +1,11 @@
 
+// TC: O(N)
+// SC: O(N) // recursive stack
+    
+// Leetcode successfull
+
+// Approach : Find the number of mines around a grid. If it is 0, mark it as 'B' and do a dfs to the surrounding grids, if number is >0, 
+// mark the grid with that number and stop traversing.
 
 class Solution {
 
